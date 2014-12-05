@@ -11,7 +11,7 @@ function! Projector()
   set nospell
   " Clear Highlighting on switch
   let @/ = ""
-  set guifont=Monospace\ 16
+  set guifont=Monospace\ 15
 endfunction
 
 :com! Projector :call Projector()
