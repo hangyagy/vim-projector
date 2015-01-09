@@ -39,16 +39,17 @@
 " unknown :special, Identifier
 " Statements are keywords
 " PreProc are Constants NONE, bold 
-hi Normal     term=NONE      cterm=NONE      ctermfg=Black       ctermbg=White  gui=NONE      guifg=Black        guibg=White    
-hi Comment	  term=bold      cterm=NONE      ctermfg=DarkGreen   ctermbg=NONE   gui=NONE      guifg=DarkSeaGreen guibg=NONE
-hi Constant	  term=NONE      cterm=bold      ctermfg=DarkRed     ctermbg=NONE   gui=NONE      guifg=Red          guibg=NONE
-hi Special	  term=bold      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=NONE      guifg=NONE         guibg=NONE
-hi Identifier	term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=NONE      guifg=NONE         guibg=NONE
-hi Statement	term=bold      cterm=bold      ctermfg=DarkBlue    ctermbg=NONE   gui=bold      guifg=Blue         guibg=NONE
-hi PreProc	  term=NONE      cterm=NONE      ctermfg=LightBlue   ctermbg=NONE   gui=NONE      guifg=SteelBlue3   guibg=NONE
-hi Type		    term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=bold      guifg=NONE         guibg=NONE
+hi Normal     term=NONE      cterm=NONE      ctermfg=Black       ctermbg=White  gui=NONE      guifg=#073642        guibg=#EEE8D5
+hi Comment	  term=bold      cterm=NONE      ctermfg=DarkGreen   ctermbg=NONE   gui=NONE      guifg=#2d847d      guibg=NONE
+hi Constant	  term=NONE      cterm=bold      ctermfg=DarkRed     ctermbg=NONE   gui=NONE      guifg=#658278     guibg=NONE
+hi Special	  term=bold      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=NONE      guifg=#CB4B16         guibg=NONE
+hi Identifier	term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=NONE      guifg=#2754d1         guibg=NONE
+hi Statement	term=bold      cterm=bold      ctermfg=DarkBlue    ctermbg=NONE   gui=bold      guifg=#DC322F        guibg=NONE
+hi PreProc	  term=NONE      cterm=NONE      ctermfg=LightBlue   ctermbg=NONE   gui=NONE      guifg=#2AA198   guibg=NONE
+hi Type		    term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=bold      guifg=#CB4B16         guibg=NONE
 hi Underlined	term=underline cterm=underline ctermfg=NONE                       gui=underline guifg=NONE         
 hi Ignore	    term=NONE      cterm=NONE      ctermfg=NONE        ctermbg=NONE   gui=NONE      guifg=NONE         guibg=NONE
 hi Error      term=reverse   cterm=NONE      ctermfg=DarkRed     ctermbg=NONE   gui=NONE      guifg=NONE         guibg=NONE
 hi Todo		    term=standout  cterm=NONE      ctermfg=DarkRed     ctermbg=NONE   gui=NONE      guifg=NONE         guibg=NONE
-	    
+hi LineNr	  term=bold      cterm=NONE      ctermfg=DarkGreen   ctermbg=NONE   gui=NONE      guifg=#93A1A1      guibg=#e2e0d7
+    
